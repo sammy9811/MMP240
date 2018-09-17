@@ -2,14 +2,14 @@ BODY{background: url(hannah-troupe-430145-unsplash.jpg)
     no-repeat center center fixed;
 background-size: cover;}
 p { color: brown;
-    font-size: 34px;
+    font-size: 30px;
   font-family:monospace;
   text-align: center;}
 h2 {color: aqua;
     font-size: 50px;
   font-family: monospace;
   text-align: left;}
-h1 {font-size: 100px;
+h1 {font-size: 90px;
     color: goldenrod;
     text-align: center;
     font-family: fantasy;}
