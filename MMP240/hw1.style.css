@@ -1,0 +1,16 @@
+H1 {color: wheat;
+    text-align: center;
+    font-size: 100px;
+    font-family:monospace;
+   }
+
+BODY{background: url(abigail-keenan-83615-unsplash.jpg) 
+    no-repeat center center fixed;
+background-size: cover;}
+p { color: brown;
+    font-size: 55px;
+  font-family:cursive;
+  text-align: center;}
+h2 {font-size: 50px;
+  font-family: monospace;
+  text-align: center;}
