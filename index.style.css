@@ -21,7 +21,7 @@ div,a {color: whitesmoke;
     font-size: 25px;}
 .sidenav {
     height: 100%;
-    width: 220px; 
+    width: 90px; 
     position: fixed; 
     z-index: 1;
     top: 0; 
