@@ -1,0 +1,112 @@
+ nav {
+background-color:black;
+text-align: left;
+        }
+
+nav ul{
+list-style:none;
+    }
+
+ nav li{
+ display: inline;
+        }
+
+nav a{
+display: inline-block;
+padding: 15px;
+background-color:indianred;
+color: whitesmoke;
+text-decoration: none;
+    font-size: 25px;
+             }
+
+nav a:hover{
+ background-color:black;
+color: indianred;
+        }
+
+p{
+    font-size: 60px;
+    font-family:monospace;
+    text-align: center;
+    color: antiquewhite;
+}
+p2{
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: center;
+    color: antiquewhite;
+}
+h2{
+     font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: indianred;
+}
+
+h3{
+   font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    color: indianred;
+}
+
+body{
+    background-color:antiquewhite;
+     background-image: url("piano.jpg");
+    margin:0 auto;
+              width:100%;
+              margin-top:0 auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+ }
+iframe{text-align: center; }
+a {
+    font-size: 40px;
+    text-align: right;
+    color: black;
+    
+}
+ aside{
+              height: 500px;
+              border: 0.1px solid white;
+              width: 49%;
+              float: right;
+              
+          }
+          article{
+              border: 0.1px solid white;
+              width:49%;
+              float: left;
+              height: 500px;
+               
+              
+               }
+          
+          footer{
+              height: 250px;
+                 margin-bottom: 30px;
+              background-color: grey;
+              clear: both;
+              border: 1px solid transparent;
+               background-color: transparent;
+          }
+          
+          section{
+              height: 800px;
+              margin-bottom: 10px;
+              
+          }
+          
+         
