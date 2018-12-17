@@ -1,6 +1,8 @@
- nav {
-background-color:black;
-text-align: left;
+nav {
+background-color:#141414;
+text-align: center;
+ margin-top:5px ;
+margin-bottom: 10px;
         }
 
 nav ul{
@@ -13,53 +15,97 @@ list-style:none;
 
 nav a{
 display: inline-block;
-padding: 15px;
-background-color:indianred;
-color: whitesmoke;
+padding: 8px;
+background-color:#141414;
+color: snow;
 text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
              }
 
 nav a:hover{
- background-color:black;
-color: indianred;
+ background-color:#141414;
+color:#4a4a4a;
         }
-
 p{
-    font-size: 60px;
-    font-family:monospace;
+    font-size: 23px;
     text-align: center;
-    color: antiquewhite;
+    font-family:'Noto Serif TC', serif;
+    color: dodgerblue;
+    text-decoration-style: double;
 }
-p2{
-    font-size: 20px;
-    font-family:sans-serif;
+p:hover {
+  font-size: 24px;
     text-align: center;
-    color: antiquewhite;
+    font-family:'Noto Serif TC', serif;
+    color: dodgerblue;
+    text-decoration-style: double;
+    text-decoration:underline;
+}
+
+p1{ font-size: 30px;
+    text-align:center;
+    font-family:'Noto Serif TC', serif;
+    color:#141414;
+     text-decoration-style: double;
+    }
+p2{
+    font-size: 60px;
+    text-align:inherit;
+    font-family:'Noto Serif TC', serif;
+    color:dodgerblue;
+     text-decoration-style: double;
+    }
+p2:hover {
+      font-size: 62px;
+    text-align:inherit;
+    font-family:'Noto Serif TC', serif;
+    color:dodgerblue;
+     text-decoration-style: double;
+    
+}
+p3{
+    font-size: 18px;
+    font-family:'Noto Serif TC', serif;
+    text-align: center;
+    color:whitesmoke;
 }
 h2{
-     font-size: 30px;
+     font-size: 60px;
     text-align: center;
-    color: whitesmoke;
+    font-family:arial;
+    color:ghostwhite;
+}
+h2:hover {
+     font-size: 60.5px;
+    text-align: center;
+    font-family:arial;
+    color:mediumblue;
+    text-decoration: underline;
 }
 
 h1{
-    font-size: 25px;
+    font-size: 64px;
     text-align: center;
-    font-family: sans-serif;
-    color: indianred;
+    font-family: 'Source Sans Pro', sans-serif,italic;
+    color: ghostwhite;
 }
-
-h3{
-   font-size: 25px;
-    font-family: cursive;
+h1:hover {
+  font-size: 66px;
     text-align: center;
-    color: indianred;
+    font-family:'Source Sans Pro', sans-serif;
+    color: ghostwhite;
+    text-decoration-style: double;
+    text-decoration: none;
+}
+h3{
+   font-size: 29px;
+    font-family:serif;
+    text-align: left;
+    color: whitesmoke;
 }
 
 body{
-    background-color:antiquewhite;
-     background-image: url("piano.jpg");
+   background-color:black;//*whitesmoke;*//
     margin:0 auto;
               width:100%;
               margin-top:0 auto;
@@ -68,45 +114,73 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    margin-top: 20px;
+     margin-bottom: 20px;
+    width: 45%;
 
  }
 iframe{text-align: center; }
 a {
     font-size: 40px;
+    font-family: 'Noto Serif TC', serif;
     text-align: right;
     color: black;
     
 }
+h4 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    text-decoration: none;
+    
+}
  aside{
-              height: 500px;
-              border: 0.1px solid white;
-              width: 49%;
-              float: right;
+              height: 400px;
+              border: 1px solid transparent;
+              margin:20px auto;
+              width:68%;
+              margin-top:10px auto;
+              float: left;
               
           }
-          article{
-              border: 0.1px solid white;
-              width:49%;
-              float: left;
-              height: 500px;
-               
+article{
+             
+              height: 400px;
+              border: 1px solid transparent;
+              margin:20px auto;
+              width:33%;
+              margin-top:10px auto ;
+              float:right;
               
-               }
+          }
+section{
+             background-color:#141414; 
+              height: 350px;
+              border: 10px;
+             border-left: solid black;
+             border-right: solid black;
+             border-top: solid transparent;
+             border-bottom: solid black;
+              margin:20px auto;
+              width:32.9%;
+              margin-top:0px ;
+              float:right;
+              
+          }
+         
+button{
+       width:50%;
+      }
           
           footer{
-              height: 250px;
+              height:40px;
                  margin-bottom: 30px;
-              background-color: grey;
+              background-color:#141414;
               clear: both;
               border: 1px solid transparent;
-               background-color: transparent;
           }
           
-          section{
-              height: 800px;
-              margin-bottom: 10px;
-              
-          }
+         
           
          
